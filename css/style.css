@@ -403,3 +403,14 @@ footer {
 footer p {
     padding: 30px;
 }
+
+@media screen and (max-width:960px) {
+    ul.button {
+        left: 5%;
+        top: 55%;
+    }
+}
+
+@media screen and (max-width:712px) {
+    ul.button{display: none;}
+}
