@@ -222,10 +222,12 @@ ul.sub-menu li:hover>a {
 
 .contents ul li figure {
     width: 90%;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .summary {
