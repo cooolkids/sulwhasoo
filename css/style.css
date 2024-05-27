@@ -64,7 +64,7 @@ header .inner-wrap nav ul {
 }
 
 .inner-wrap.on:hover::after {
-    background-image: url(/images/sulwhasoo_orange_logo_220902.png);
+    background-image: url(../images/sulwhasoo_orange_logo_220902.png);
     background-repeat: no-repeat;
     background-position: 50%;
 }
