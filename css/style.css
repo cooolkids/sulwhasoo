@@ -284,8 +284,66 @@ main .summary p {
     margin-left: 5px;
 }
 
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.season-wrap {
+    width: 100%;
+}
 
+.season-wrap h3{
+    font-size: 26px;
+    height: 6vw;
+    display: flex;
+    align-items: center;
+}
+
+.season {
+    width: 90%;
+    flex-direction: column;
+}
+
+.season ul{
+    gap: 20px;
+    position: relative;
+}
+
+.season ul li figure{
+    position: absolute;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.season ul li figure h4{
+    font-size: 23px;
+}
+
+.season ul li figure p{
+    color: #777777;
+    font-size: 14px;
+}
+
+.season ul li figure figcaption{
+    font-size: 14px;
+}
+
+.season ul li:nth-child(1) figure{
+    left: 5%;
+    top: 70%;
+}
+.season ul li:nth-child(2) figure{
+    left: 28%;
+    top: 79%;
+    justify-content: center;
+}
+
+.season ul li:nth-child(3) figure{
+    right: 6%;
+    top: 70%;
+}
 
 
 /* sect3 */
@@ -414,5 +472,7 @@ footer p {
 }
 
 @media screen and (max-width:712px) {
-    ul.button{display: none;}
+    ul.button {
+        display: none;
+    }
 }
