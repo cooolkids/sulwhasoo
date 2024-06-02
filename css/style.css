@@ -331,7 +331,7 @@ main .summary p {
 }
 
 .season ul li:nth-child(1) figure{
-    left: 5%;
+    left: 6%;
     top: 70%;
 }
 .season ul li:nth-child(2) figure{
@@ -341,7 +341,7 @@ main .summary p {
 }
 
 .season ul li:nth-child(3) figure{
-    right: 6%;
+    right: 7%;
     top: 70%;
 }
 
@@ -417,7 +417,6 @@ body {
 }
 
 .swiper {
-    position: absolute;
     width: 100%;
 }
 

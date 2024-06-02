@@ -7,21 +7,20 @@ var swiper = new Swiper(".mySwiper", {
     disableOnInteraction: false,
   },
 
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+  pagination: {
+    el: ".swiper-pagination",
   },
 });
 
-$('.top').animate({ 'width': '100%' }, 1000, function () {
-  $('.right').animate({ 'height': '100%' }, 1000, function () {
-    $('.bottom').animate({ 'width': '100%' }, 1000, function () {
-      $('.left').animate({ 'height': '100%' }, 1000, function () {
+// $('.top').animate({ 'width': '100%' }, 1000, function () {
+//   $('.right').animate({ 'height': '100%' }, 1000, function () {
+//     $('.bottom').animate({ 'width': '100%' }, 1000, function () {
+//       $('.left').animate({ 'height': '100%' }, 1000, function () {
 
-      })
-    })
-  })
-})
+//       })
+//     })
+//   })
+// })
 
 $('.inner-wrap').mouseenter(function () {
   $('.inner-wrap').stop().addClass('on')
